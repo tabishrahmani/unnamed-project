@@ -1,5 +1,5 @@
 const userModel = require('../models/users')
-const encryptionData = require('../../utils/encryption')
+const encryptionData = require('../utils/encryption')
 
 exports.signupUserController = async (req, res) => {
   try {
